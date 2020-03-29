@@ -9,13 +9,12 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>About</title>
-      <link>https://guohaoxiangzz.github.io/about/</link>
+      <title>Javas</title>
+      <link>https://guohaoxiangzz.github.io/java/</link>
       <pubDate>Sun, 29 Mar 2020 22:17:58 +0800</pubDate>
       
-      <guid>https://guohaoxiangzz.github.io/about/</guid>
-      <description>&lt;p&gt;test content&lt;/p&gt;
-</description>
+      <guid>https://guohaoxiangzz.github.io/java/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javas on (゜-゜)つロ</title>
+    <link>https://guohaoxiangzz.github.io/java/</link>
+    <description>Recent content in Javas on (゜-゜)つロ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 29 Mar 2020 22:17:58 +0800</lastBuildDate>
+    
+	<atom:link href="https://guohaoxiangzz.github.io/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>https://guohaoxiangzz.github.io/java/about/</link>
+      <pubDate>Sun, 29 Mar 2020 22:17:58 +0800</pubDate>
+      
+      <guid>https://guohaoxiangzz.github.io/java/about/</guid>
+      <description>可以看到配置四个数据源 分别是 主数据库两个 从数据库两个 sharding.jdbc.datasource.names=master0,master1,master0slave0,master1slave0 主第一个数据库 sharding.jdbc.datasource.master0.type=com.zaxxer.hikari.HikariDataSource sharding.jdbc.datasource.master0.hikari.driver-class-name=com.mysql.jdbc.Driver sharding.jdbc.datasource.master0.jdbc-url=jdbc:mysql://192.168.0.4:3306/ds0?characterEncoding=utf-8&amp;amp;serverTimezone=Asia/Shanghai sharding.jdbc.datasource.master0.username=test sharding.jdbc.datasource.master0.password=12root 主第二个数据库 sharding.jdbc.datasource.master1.type=com.zaxxer.hikari.HikariDataSource sharding.jdbc.datasource.master1.hikari.driver-class-name=com.mysql.jdbc.Driver sharding.jdbc.datasource.master1.jdbc-url=jdbc:mysql://192.168.0.4:3306/ds1?characterEncoding=utf-8&amp;amp;serverTimezone=Asia/Shanghai sharding.jdbc.datasource.master1.username=test sharding.jdbc.datasource.master1.password=12root 从第一个数据库 sharding.jdbc.datasource.master0slave0.type=com.zaxxer.hikari.HikariDataSource sharding.jdbc.datasource.master0slave0.hikari.driver-class-name=com.mysql.jdbc.Driver sharding.jdbc.datasource.master0slave0.jdbc-url=jdbc:mysql://192.168.0.3:3306/ds0?characterEncoding=utf-8&amp;amp;serverTimezone=Asia/Shanghai sharding.jdbc.datasource.master0slave0.username=test sharding.jdbc.datasource.master0slave0.password=12root 从第一个数据库</description>
+    </item>
+    
+  </channel>
+</rss>
