@@ -22,10 +22,10 @@
   <title>
        
        
-           About | (゜-゜)つロ
+           SpringBoot&#43;sharding-JDBC实现分库分表和读写分离 | (゜-゜)つロ
        
   </title>
-  <meta name="title" content="About | (゜-゜)つロ">
+  <meta name="title" content="SpringBoot&#43;sharding-JDBC实现分库分表和读写分离 | (゜-゜)つロ">
     
   
   <link rel="stylesheet" href="/font/iconfont.css">
@@ -44,8 +44,8 @@
          "@id": "https:\/\/guohaoxiangzz.github.io"
     },
     "articleSection" : "java",
-    "name" : "About",
-    "headline" : "About",
+    "name" : "SpringBoot\x2bsharding-JDBC实现分库分表和读写分离",
+    "headline" : "SpringBoot\x2bsharding-JDBC实现分库分表和读写分离",
     "description" : "可以看到配置四个数据源 分别是 主数据库两个 从数据库两个 sharding.jdbc.datasource.names=master0,master1,master0slave0,master1slave0 主第一个数据库 sharding.jdbc.datasource.master0.type=com.zaxxer.hikari.HikariDataSource sharding.jdbc.datasource.master0.hikari.driver-class-name=com.mysql.jdbc.Driver sharding.jdbc.datasource.master0.jdbc-url=jdbc:mysql:\/\/192.168.0.4:3306\/ds0?characterEncoding=utf-8\x26amp;serverTimezone=Asia\/Shanghai sharding.jdbc.datasource.master0.username=test sharding.jdbc.datasource.master0.password=12root 主第二个数据库 sharding.jdbc.datasource.master1.type=com.zaxxer.hikari.HikariDataSource sharding.jdbc.datasource.master1.hikari.driver-class-name=com.mysql.jdbc.Driver sharding.jdbc.datasource.master1.jdbc-url=jdbc:mysql:\/\/192.168.0.4:3306\/ds1?characterEncoding=utf-8\x26amp;serverTimezone=Asia\/Shanghai sharding.jdbc.datasource.master1.username=test sharding.jdbc.datasource.master1.password=12root 从第一个数据库 sharding.jdbc.datasource.master0slave0.type=com.zaxxer.hikari.HikariDataSource sharding.jdbc.datasource.master0slave0.hikari.driver-class-name=com.mysql.jdbc.Driver sharding.jdbc.datasource.master0slave0.jdbc-url=jdbc:mysql:\/\/192.168.0.3:3306\/ds0?characterEncoding=utf-8\x26amp;serverTimezone=Asia\/Shanghai sharding.jdbc.datasource.master0slave0.username=test sharding.jdbc.datasource.master0slave0.password=12root 从第一个数据库",
     "inLanguage" : "zh-cn",
     "author" : "guohaoxiang",
@@ -57,7 +57,7 @@
     "datePublished": "2020-03-29 22:17:58 \x2b0800 CST",
     "dateModified" : "2020-03-29 22:17:58 \x2b0800 CST",
     "url" : "https:\/\/guohaoxiangzz.github.io\/java\/about\/",
-    "wordCount" : "395",
+    "wordCount" : "295",
     "keywords" : [  "(゜-゜)つロ"]
 }
 </script>
@@ -112,7 +112,7 @@
       		
 <article class="post-warp" itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">About</h1>
+        <h1 class="post-title" itemprop="name headline">SpringBoot&#43;sharding-JDBC实现分库分表和读写分离</h1>
         <div class="post-meta">
                 Written by <a itemprop="name" href="https://guohaoxiangzz.github.io" rel="author">guohaoxiang</a> with ♥ 
                 <span class="post-time">
@@ -191,10 +191,6 @@ sharding.jdbc.config.sharding.tables.user.table-strategy.inline.sharding-column=
 <h1 id="打印操作的sql以及库表数据等">打印操作的sql以及库表数据等</h1>
 <p>sharding.jdbc.config.props.sql.show=true
 spring.main.allow-bean-definition-overriding=true</p>
-<p>作者：小东IT技术分享
-链接：https://juejin.im/post/5cf4f07ef265da1bd522b974
-来源：掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</p>
 
     </div>
 
